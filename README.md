@@ -1,54 +1,90 @@
-# React + TypeScript + Vite
+```sh
+ТРЕБОВАНИЯ
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ребования
+Node.js ^18.18.0 || >=20.0.0
 
-Currently, two official plugins are available:
+Yarn 1.x или 3.x
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Apache2 или Nginx
 
-## Expanding the ESLint configuration
+Настроенный домен
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+yarn install
+yarn dev
+
+
+
+Установка несколько версий node на сервер
+nvm install 22.14.0
+nvm use 22
+nvm alias default 22
+
+...
+ 
+Скрипт	Назначение
+yarn install	Установка зависимостей
+yarn build	Сборка проекта
+yarn dev	Локальная разработка (если нужно)
+
+```sh
+$ cd path-to-save-your-project
+$ degit matozz/vite-react-framer-starter your-project-name
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+After getting a copy of this repository, you can use your package manager to install dependecies:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+```sh
+$ cd path-to-your-project
+$ pnpm install
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
+# npm install
+# yarn install
 ```
+
+## Usage
+
+Let's run!
+
+```sh
+$ pnpm run dev
+ 
+//----------
+# План работ
+1. поднять сервер апи
+  https://api-memory.firm.kiev.ua/api/documentation 
+  сервер демо:  https://olympiad.firm.kiev.ua/  
+2. План работ вместе
+Aleksandr Zagadum, [09.04.2025 21:45]
+2.1 Все олипмида (апи,верстка)
+2.2 сихронизация п.1
+
+3. Детальный просмотр олимпиады.
+
+п3 3. Детальный просмотр олимпиады.
+
+
+4. Форма регистрация + Апи + спсики и тд..
+4.1 ДОговор
+
+
+Форма регистрации
+
+4.2 потверждение оплаты (верстка) потом уточнить
+5. Детальный просмотр тренировок
+
+6. Мои олимпиады
+7. Рейтинг
+8. Оплата
+9. Меню(динамическое)
+10. главная
+
+11. Возмоно совместить проекты
+https://memory.firm.kiev.ua/front
+react (проект) ->api
+
+12. Конфиги в REACT 
+ SITE_URL: https://memory.firm.kiev.ua/front
+ IMAGE_URL: https://memory.firm.kiev.ua/front
+ 
