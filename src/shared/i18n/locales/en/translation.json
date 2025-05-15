@@ -1,0 +1,56 @@
+{
+  "home": {
+    "welcome": "Welcome to SpaceM!",
+    "description": "Welcome to the Olympiads participation app. Register and discover new opportunities.",
+    "goToOlympiads": "Go to Olympiads"
+  },
+  "sidebar": {
+    "home": "Home",
+    "homework": "Homework",
+    "training": "Train Yourself",
+    "olympiads": "Olympiads",
+    "mySpace": "My Space",
+    "logout": "Logout"
+  },
+  "userInfo": {
+    "role": "Space trainer",
+    "phone": "Mariya Menska +44394909799"
+  },
+  "stats": {
+    "avgTime": "Average solving time",
+    "minutes": "minutes",
+    "statistics": "Statistics",
+    "homework": "Homework",
+    "joinIdea": "Join the idea"
+  },
+  "rating": {
+    "title": "Rating"
+  },
+  "news": {
+    "title": "News",
+    "item1": "A new math marathon has started for SpaceM participants!",
+    "item2": "Portal usage rules have been updated — please review!",
+    "item3": "New trainings are available in the 'Train Yourself' section."
+  },
+  "olympiadsNavbar": {
+    "item1": "All olympiads",
+    "item2": "My olympiads",
+    "item3": "Rating"
+  },
+  "olympiadCard": {
+    "international": "International",
+    "country": {
+      "pl": "Polska",
+      "uk": "Українська"
+    },
+    "promotion": {
+      "olympiad": "",
+      "ads": ""
+    },
+    "startIn": "Start in ",
+    "endIn": "End in ",
+    "startTraining": "Training",
+    "start": "Start",
+    "participate": "Participate"
+  }
+}
